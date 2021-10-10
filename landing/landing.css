@@ -1,0 +1,50 @@
+body{
+  z-index: 1;
+
+}
+
+.sec{
+  position: absolute;
+  background-size: 100%;
+  z-index: -1;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sec video{
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.trippy {
+  background-color: transparent;
+  position: absolute;
+  z-index: 7;
+  text-decoration: none;
+  font-size: xx-large;
+  border: transparent;
+  color: midnightblue;
+  align-items: center;
+  text-align: center;
+  justify-content: center; 
+  bottom: 500px;
+  right: 900px;
+}
+
+.trippy:hover{
+  text-shadow: -3px 3px 0 #8B008B;
+text-shadow: 3px 3px 0 #8B008B;
+text-shadow: -3px -3px 0 #8B008B;
+text-shadow: -3px -3px 0 #8B008B;
+}
+
+
+

@@ -1,160 +1,65 @@
 body {
-    background-image: url(./portfolio.jpg!d);
-    position: static; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 200vh;
-
-
-}
-
-.lollipop{
-  position: relative;
-  border-style: solid;
-  border-radius: solid;
-border-color: navajowhite;
-font-family: brush script mt, sans-serif;
-font-size: xx-large;
-color: ivory;
-margin: auto 0;
-box-sizing: border-box;
+background-image: url(./denver.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
 width: 100%;
+height: 100vh;
+overflow: hidden;
+min-width: 100%;
+min-height: 100%;
+
+}
+
+
+ul li a{
+margin: 48px;
+font-size: 50px;
+font-family: brush script mt, sans-serif;
+z-index: 1;
+}
+
+ul li a:hover{
+-webkit-transform: scale(1.5);
+color: brown;
+}
+
+
+
+.lollipop{ 
+position: absolute;
+font-family: century, sans-serif; 
+color: transparent;
+font-size: xx-large;
+top: 32%;
+left: 10%;
+
+}
+
+.lollipop:hover{
+color: ghostwhite;
+text-shadow: -3px 3px 0 #8B008B;
+text-shadow: 3px 3px 0 #8B008B;
+text-shadow: -3px -3px 0 #8B008B;
+text-shadow: -3px -3px 0 #8B008B;
+
+
+}
+
+
+.myPhoto {
+position: absolute;
+width: 300px;
 height: 300px;
-
+right: 1px;
+top: 1px;
 }
 
-
-.Resume{
-position: relative;
-right: -2198px;
-top: -427px; 
-background-color: darkgreen;
-border-style: solid;
-border-radius: solid;
-border-color: snow;
-color: snow;
+.swiftBoots{
+  position: absolute;
+  bottom: 1px;
   
 }
 
-.link{
-  position: relative;
-  right: -2275px;
-  top: -427px; 
-  background: darkgreen;
-  border-style: solid;
-  border-radius: solid;
-  border-color: snow;
-  color: snow;
-  
-  }
-
-  .github{
-    position: relative;
-    right: -2058px;
-    top: -427px; 
-    background: darkgreen;
-    border-style: solid;
-    border-radius: solid;
-    border-color: snow;
-    color: snow;
-    
-    }
-
-
-.hubba {
-font-size: medium;
-color: whitesmoke;
-font-family: Georgia, sans-serif;
-font-size: large;
  
 
-}
-.myPhoto { 
-position: relative ;
-width: 240px;
-height: 270px;
-bottom: -1px;
-
- }
-
- .poppycock {
-border-style: solid;
-border-radius: solid;
-border-color: whitesmoke;
- grid-template-columns: 350px 150px 100px;
- width: 695px;
- height: 119px;
- font-family: Freemono, monospace;
- font-size: medium;
-  font-weight: 5;
-  color: mintcream;
- position:  relative;
- right: -1855px;
- bottom: 139px;
- }
-
-
-
-.scuttleButt{
-  background-image: url(./Gold.png);
-  background-repeat: no-repeat;
-  position: relative;
-  border-style: solid;
-  border-radius: solid;
-  background-color: powderblue;
-  border-color: crimson;
-  color: royalblue;
-  width: 656px;
-  height: 656px;
-  left: 1851px;
- bottom: -170px;
-  
-}
-
-ul li {
-  list-style-type: none;
-}
-
-.swiftBoots {
-  position: relative;
-  left: 0;
-  top: -60px;
-  width: 100%;
-  background-color: transparent;
-  text-align: center;
-  border-radius: solid;
-  border-style: solid;
-  border-color: navajowhite;
-  color: white;
-  font-size: large;
-}
-
-.gengar{
-  border: solid transparent;
-  border-radius: solid;
-}
-
-.gengar:hover{
-  box-shadow: 0 0 2px, 1px rgba(0, 140, 186, 0.5);
-} 
-
- .spookyPhoto{
-position: relative;
-max-width: 900px;
-max-height: 900px;
-width: 656px;
-height: 656px;
-top: -346px;
-left: 80px
-} 
-
-.bet {
-  position: relative;
-  max-width: 900px;
-  max-height: 900px;
-  width: 656px;
-  height: 656px;
-  top: -996px;
-  right: -1000px;
-}
+ 

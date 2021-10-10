@@ -1,0 +1,80 @@
+body {
+z-index: 1;
+}
+
+.sec{
+    position: absolute;
+     z-index: -1; 
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+   overflow: hidden;
+ 
+}
+
+.sec video{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+ul li a{
+    margin: 48px;
+    font-size: 50px;
+    font-family: brush script mt, sans-serif;
+  
+    }
+    
+    ul li a:hover{
+    -webkit-transform: scale(1.5);
+  
+    }
+
+ul li {
+list-style-type: none;
+}
+  
+
+  
+#carouselExampleFade{
+    position: absolute;
+    width: 22%;
+    margin: 0 auto;
+    bottom: 15px;
+    left: 1px;
+}
+
+.gold{
+    position: absolute;
+    width: 10%;
+}
+
+.TBA{
+    position: absolute;
+    bottom: 450px;
+    left: 599px;
+    font-size: large;
+    color: azure;
+}
+
+.TBA2{
+    position: absolute;
+    bottom: 450px;
+    left: 1019px;
+    font-size: large;
+    color: azure;
+}
+.gp{
+    position: absolute;
+    bottom: 450px;
+    left: 109px;
+    font-size: large;
+    color: azure;
+}
+

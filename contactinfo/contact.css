@@ -1,0 +1,43 @@
+body {
+background-image: url(./water.jpg);
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 100vh;
+overflow: hidden;
+min-width: 100%;
+min-height: 100%; 
+}
+
+.lollipop{
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 55px;
+}
+
+
+.lollipop:hover{
+    color: white;
+    text-shadow: -3px 3px 0 #8B008B;
+    text-shadow: 3px 3px 0 #8B008B;
+    text-shadow: -3px -3px 0 #8B008B;
+    text-shadow: -3px -3px 0 #8B008B;
+}
+
+
+
+ul li a{
+    margin: 48px;
+    font-size: 75px;
+    font-family: brush script mt, sans-serif;
+    }
+    
+    ul li a:hover{
+    -webkit-transform: scale(1.5);
+    color: brown;
+    }
+
